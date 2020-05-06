@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-mkdir .config
+mkdir -p .config
 cp -r ~/.config/i3 ./.config/
 cp -r ~/.config/i3status ./.config/
 cp ~/.npmrc ./
